@@ -3,6 +3,7 @@ const
 	FROM = `C:/Users/Alex/Desktop`,
 	TO = `C:/Users/Alex/Pictures/f`,
 	regex = /^\d+\-\d+\-\d+\_\d+\-(\d+|\d+\_\d+)\.\w+$/g
+	// /^IMG\_\d+\_\d+\.\w+$|^DSC\_\d+\.\w+$/g
 ;
 
 if (!fs.existsSync(TO)) fs.mkdirSync(TO);
