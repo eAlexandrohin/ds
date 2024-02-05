@@ -2,7 +2,7 @@ const
 	fs = require(`fs`),
 	FROM = `C:/Users/Alex/Desktop`,
 	TO = `C:/Users/Alex/Pictures/f`,
-	regex = /^\d+\-\d+\-\d+\_\d+\-(\d+|\d+\_\d+)\.\w+$/g
+	regex = /^\d+\-\d+\-\d+\_\d+\-[\d_]+\.\w+$/
 	// /^IMG\_\d+\_\d+\.\w+$|^DSC\_\d+\.\w+$/g
 ;
 
