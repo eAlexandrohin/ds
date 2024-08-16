@@ -1,0 +1,20 @@
+{
+  "name": "flameds",
+  "version": "1.0.0",
+  "description": "Clears the destop by creating folder with data template name and moving all files to it",
+  "main": "ds.js",
+  "bin": "ds.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eAlexandrohin/ds.git"
+  },
+  "files": ["ds.js"],
+  "scripts": {
+    "run": "node ds.js"
+  },
+  "keywords": [
+    "flameshot"
+  ],
+  "author": "ealexandrohin",
+  "license": "MIT"
+}

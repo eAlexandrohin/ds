@@ -1,7 +1,9 @@
+#! /usr/bin/env node
+
 const 
 	fs = require(`fs`),
-	FROM = `C:/Users/Alex/Desktop`,
-	TO = `C:/Users/Alex/Pictures/f`,
+	FROM = `${require(`os`).userInfo().homedir}/Desktop`,
+	TO = `${require(`os`).userInfo().homedir}/Pictures/Flameshot`,
 	regex = /^\d+\-\d+\-\d+\_\d+\-[\d_]+\.\w+$/
 	// /^IMG\_\d+\_\d+\.\w+$|^DSC\_\d+\.\w+$/g
 ;
@@ -16,7 +18,7 @@ fs.readdir(FROM, null, (err, files) => {
 			fs.mkdir(FOLDER, null, (err) => {
 				if (err && err.code != `EEXIST`) console.error;
 
-				fs.renameSync(`${FROM}/${path}`, `${FOLDER}/${path}`)
+				fs.renameSync(`${FROM}/${path}`, `${FOLDER}/${path}`);
 			});
 		};
 	});
