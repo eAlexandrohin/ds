@@ -1,6 +1,6 @@
 {
   "name": "flameds",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Minitool that clears destop from flameshots",
   "main": "ds.js",
   "bin": {
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/eAlexandrohin/ds.git"
   },
-  "files": ["ds.js"],
   "scripts": {
     "run": "node ds.js"
   },
