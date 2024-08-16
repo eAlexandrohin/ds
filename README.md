@@ -8,3 +8,16 @@ npm i -g flameds
 ```
 ds
 ```
+## Configuration
+### FROM
+```
+[$HOME]|[%USERPROFILE%]/Desktop
+```
+### TO
+```
+[$HOME]|[%USERPROFILE%]/Pictures/Flameshot
+```
+### Template
+```
+[{day}/{month}/{year}]
+```
