@@ -1,7 +1,7 @@
 {
   "name": "flameds",
   "version": "1.0.0",
-  "description": "Clears the destop by creating folder with data template name and moving all files to it",
+  "description": "Minitool that clears destop from flameshots",
   "main": "ds.js",
   "bin": {
     "ds": "ds.js"
