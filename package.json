@@ -1,7 +1,7 @@
 {
   "name": "flameds",
-  "version": "1.0.2",
-  "description": "Minitool that clears destop from flameshots",
+  "version": "1.0.3",
+  "description": "Minitool that clears desktop from flameshots",
   "main": "ds.js",
   "bin": {
     "ds": "ds.js"
